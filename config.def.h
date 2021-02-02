@@ -100,9 +100,9 @@ static char normbordercolor[]            = "#444444";
 static char normfloatcolor[]             = "#db8fd9";
 
 static char selfgcolor[]                 = "#c5c8c6";
-static char selbgcolor[]                 = "#5f819d";
-static char selbordercolor[]             = "#5f819d";
-static char selfloatcolor[]              = "#5f819d";
+static char selbgcolor[]                 = "#b284bb";
+static char selbordercolor[]             = "#b284bb";
+static char selfloatcolor[]              = "#b284bb";
 
 static char titlenormfgcolor[]           = "#bbbbbb";
 static char titlenormbgcolor[]           = "#1d1f21";
