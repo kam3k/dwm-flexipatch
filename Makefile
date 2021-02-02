@@ -40,7 +40,7 @@ dwm-msg:
 endif
 
 clean:
-	rm -f dwm ${OBJ} dwm-${VERSION}.tar.gz
+	rm -f dwm ${OBJ} dwm-${VERSION}.tar.gz patches.h config.h
 	rm -f dwm-msg
 
 dist: clean
