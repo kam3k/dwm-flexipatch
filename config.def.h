@@ -94,7 +94,7 @@ static const char dmenufont[]            = "Iosevka Term:size=11";
 #if BAR_FLEXWINTITLE_PATCH
 static char c000000[]                    = "#000000"; // placeholder value
 #endif // BAR_FLEXWINTITLE_PATCH
-static char normfgcolor[]                = "#bbbbbb";
+static char normfgcolor[]                = "#c5c8c6";
 static char normbgcolor[]                = "#1d1f21";
 static char normbordercolor[]            = "#444444";
 static char normfloatcolor[]             = "#db8fd9";
@@ -119,10 +119,10 @@ static char tagsnormbgcolor[]            = "#1d1f21";
 static char tagsnormbordercolor[]        = "#444444";
 static char tagsnormfloatcolor[]         = "#db8fd9";
 
-static char tagsselfgcolor[]             = "#1d1f21";
-static char tagsselbgcolor[]             = "#5f819d";
-static char tagsselbordercolor[]         = "#5f819d";
-static char tagsselfloatcolor[]          = "#5f819d";
+static char tagsselfgcolor[]             = "#b284bb";
+static char tagsselbgcolor[]             = "#1d1f21";
+static char tagsselbordercolor[]         = "#444444";
+static char tagsselfloatcolor[]          = "#db8fd9";
 
 static char hidfgcolor[]                 = "#5f819d";
 static char hidbgcolor[]                 = "#1d1f21";
