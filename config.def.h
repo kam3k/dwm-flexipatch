@@ -100,9 +100,9 @@ static char normbordercolor[]            = "#444444";
 static char normfloatcolor[]             = "#db8fd9";
 
 static char selfgcolor[]                 = "#c5c8c6";
-static char selbgcolor[]                 = "#b284bb";
-static char selbordercolor[]             = "#b284bb";
-static char selfloatcolor[]              = "#b284bb";
+static char selbgcolor[]                 = "#b294bb";
+static char selbordercolor[]             = "#b294bb";
+static char selfloatcolor[]              = "#b294bb";
 
 static char titlenormfgcolor[]           = "#bbbbbb";
 static char titlenormbgcolor[]           = "#1d1f21";
@@ -724,7 +724,7 @@ static const char *dmenucmd[] = {
 	"-nb", normbgcolor,
 	"-nf", normfgcolor,
 	"-sb", tagsselbgcolor,
-	"-sf", tagsselfgcolor,
+	"-sf", selbordercolor,
 	#if BAR_DMENUMATCHTOP_PATCH
 	topbar ? NULL : "-b",
 	#endif // BAR_DMENUMATCHTOP_PATCH
