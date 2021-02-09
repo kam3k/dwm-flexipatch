@@ -114,7 +114,7 @@ static char titleselbgcolor[]            = "#1d1f21";
 static char titleselbordercolor[]        = "#5f819d";
 static char titleselfloatcolor[]         = "#5f819d";
 
-static char tagsnormfgcolor[]            = "#373b41";
+static char tagsnormfgcolor[]            = "#555555";
 static char tagsnormbgcolor[]            = "#1d1f21";
 static char tagsnormbordercolor[]        = "#444444";
 static char tagsnormfloatcolor[]         = "#db8fd9";
