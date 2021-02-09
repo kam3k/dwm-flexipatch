@@ -723,8 +723,8 @@ static const char *dmenucmd[] = {
 	"-fn", dmenufont,
 	"-nb", normbgcolor,
 	"-nf", normfgcolor,
-	"-sb", tagsselbgcolor,
-	"-sf", selbordercolor,
+	"-sb", selbgcolor,
+	"-sf", normbgcolor,
 	#if BAR_DMENUMATCHTOP_PATCH
 	topbar ? NULL : "-b",
 	#endif // BAR_DMENUMATCHTOP_PATCH
