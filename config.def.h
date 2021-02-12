@@ -96,17 +96,17 @@ static char c000000[]                    = "#000000"; // placeholder value
 #endif // BAR_FLEXWINTITLE_PATCH
 static char normfgcolor[]                = "#c5c8c6";
 static char normbgcolor[]                = "#1d1f21";
-static char normbordercolor[]            = "#444444";
+static char normbordercolor[]            = "#666666";
 static char normfloatcolor[]             = "#db8fd9";
 
-static char selfgcolor[]                 = "#c5c8c6";
-static char selbgcolor[]                 = "#b294bb";
-static char selbordercolor[]             = "#b294bb";
-static char selfloatcolor[]              = "#b294bb";
+static char selfgcolor[]                = "#c5c8c6";
+static char selbgcolor[]                = "#373b41";
+static char selbordercolor[]            = "#666666";
+static char selfloatcolor[]             = "#db8fd9";
 
 static char titlenormfgcolor[]           = "#bbbbbb";
 static char titlenormbgcolor[]           = "#1d1f21";
-static char titlenormbordercolor[]       = "#444444";
+static char titlenormbordercolor[]       = "#666666";
 static char titlenormfloatcolor[]        = "#db8fd9";
 
 static char titleselfgcolor[]            = "#c5c8c6";
@@ -116,12 +116,12 @@ static char titleselfloatcolor[]         = "#5f819d";
 
 static char tagsnormfgcolor[]            = "#555555";
 static char tagsnormbgcolor[]            = "#1d1f21";
-static char tagsnormbordercolor[]        = "#444444";
+static char tagsnormbordercolor[]        = "#666666";
 static char tagsnormfloatcolor[]         = "#db8fd9";
 
 static char tagsselfgcolor[]             = "#c5c8c6";
 static char tagsselbgcolor[]             = "#1d1f21";
-static char tagsselbordercolor[]         = "#444444";
+static char tagsselbordercolor[]         = "#666666";
 static char tagsselfloatcolor[]          = "#db8fd9";
 
 static char hidfgcolor[]                 = "#5f819d";
@@ -579,13 +579,13 @@ static const Layout layouts[] = {
 #else
 static const Layout layouts[] = {
 	/* symbol     arrange function */
+	#if MONOCLE_LAYOUT
+	{ "[M]",      monocle },    /* first entry is default */
+	#endif
 	#if TILE_LAYOUT
-	{ "[]=",      tile },    /* first entry is default */
+	{ "[]=",      tile },
 	#endif
 	{ "><>",      NULL },    /* no layout function means floating behavior */
-	#if MONOCLE_LAYOUT
-	{ "[M]",      monocle },
-	#endif
 	#if BSTACK_LAYOUT
 	{ "TTT",      bstack },
 	#endif
