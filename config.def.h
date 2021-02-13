@@ -694,8 +694,8 @@ static const Layout layouts[] = {
 
 #if STACKER_PATCH
 #define STACKKEYS(MOD,ACTION) \
-	{ MOD, XK_j,     ACTION##stack, {.i = INC(+1) } }, \
-	{ MOD, XK_k,     ACTION##stack, {.i = INC(-1) } }, \
+	{ MOD, XK_l,     ACTION##stack, {.i = INC(+1) } }, \
+	{ MOD, XK_h,     ACTION##stack, {.i = INC(-1) } }, \
 	{ MOD, XK_s,     ACTION##stack, {.i = PREVSEL } }, \
 	{ MOD, XK_w,     ACTION##stack, {.i = 0 } }, \
 	{ MOD, XK_e,     ACTION##stack, {.i = 1 } }, \
@@ -788,8 +788,8 @@ static Key keys[] = {
 	{ MODKEY|ControlMask,           XK_i,          incnstack,              {.i = +1 } },
 	{ MODKEY|ControlMask,           XK_u,          incnstack,              {.i = -1 } },
 	#endif // FLEXTILE_DELUXE_LAYOUT
-	{ MODKEY,                       XK_h,          setmfact,               {.f = -0.05} },
-	{ MODKEY,                       XK_l,          setmfact,               {.f = +0.05} },
+	{ MODKEY,                       XK_j,          setmfact,               {.f = -0.05} },
+	{ MODKEY,                       XK_k,          setmfact,               {.f = +0.05} },
 	#if CFACTS_PATCH
 	{ MODKEY|ShiftMask,             XK_h,          setcfact,               {.f = +0.25} },
 	{ MODKEY|ShiftMask,             XK_l,          setcfact,               {.f = -0.25} },
