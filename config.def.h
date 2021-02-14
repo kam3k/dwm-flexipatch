@@ -87,7 +87,7 @@ static void (*bartabmonfns[])(Monitor *) = { NULL /* , customlayoutfn */ };
 #if BAR_PANGO_PATCH
 static const char font[]                 = "monospace 10";
 #else
-static const char *fonts[]               = { "Iosevka Term:size=12" };
+static const char *fonts[]               = { "Lato:size=11:style=SemiBold" };
 #endif // BAR_PANGO_PATCH
 static const char dmenufont[]            = "Iosevka Term:size=12";
 
